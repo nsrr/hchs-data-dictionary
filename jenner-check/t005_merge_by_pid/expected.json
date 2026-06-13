@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-06-13T18:21:38.301689+00:00",
+  "_captured_run_id": "r_019ec22ef21077e2a7c2d069b7717bce",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote hchs_sol_dataset (3 rows, 8 columns).",
+    "NOTE: PROC PRINT completed: 3 observations printed, 8 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

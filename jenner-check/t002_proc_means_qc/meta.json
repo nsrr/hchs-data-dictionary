@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_proc_means_qc",
+  "source_file": "scripts/prepare-hchs-for-nsrr.sas",
+  "source_blob_sha": "173d1f4f255a342a5773ba9bd9ccb3c4c6fa0167",
+  "source_commit": "e882a14bd0597fb8c4b75127368da6fc1b131813",
+  "tier": "mock_data",
+  "notes": "QC step (upstream lines 313-324): PROC MEANS over the harmonized continuous variables (nsrr_age, nsrr_bmi, nsrr_bp_systolic, nsrr_bp_diastolic, nsrr_rei_ap3n, nsrr_rei_ap4n, nsrr_ttlprdbd_f1) to screen for extreme values. The external solb source merge is replaced by a 10-row inline stand-in and the relevant upstream harmonization recodes are applied in autoexec.sas; the PROC MEANS statement is upstream verbatim."
+}

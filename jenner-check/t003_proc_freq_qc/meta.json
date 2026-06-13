@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_proc_freq_qc",
+  "source_file": "scripts/prepare-hchs-for-nsrr.sas",
+  "source_blob_sha": "173d1f4f255a342a5773ba9bd9ccb3c4c6fa0167",
+  "source_commit": "e882a14bd0597fb8c4b75127368da6fc1b131813",
+  "tier": "mock_data",
+  "notes": "QC step (upstream lines 326-336): PROC FREQ over the harmonized categorical variables (nsrr_age_gt89, nsrr_sex, nsrr_race, nsrr_ethnicity, nsrr_hispanic_subgroup, nsrr_current_smoker, nsrr_ever_smoker) to review category distributions. The external solb source merge is replaced by a 10-row inline stand-in and the relevant upstream harmonization label maps are applied in autoexec.sas; the PROC FREQ statement is upstream verbatim."
+}
