@@ -1,0 +1,24 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA hchs_sol_dataset
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote hchs_sol_dataset (10 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA hchs_sol_harmonized
+
+
+NOTE: Read 10 rows from hchs_sol_dataset.
+NOTE: Wrote hchs_sol_harmonized (10 rows, 16 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=hchs_sol_harmonized
+
+NOTE: PROC PRINT completed: 10 observations printed, 16 variables

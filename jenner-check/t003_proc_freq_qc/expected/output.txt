@@ -1,0 +1,49 @@
+                                                   The FREQ Procedure
+
+                                           Cumulative    Cumulative
+nsrr_age_gt89    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------
+no                       9     90.00            9        90.00
+yes                      1     10.00           10       100.00
+
+                                      Cumulative    Cumulative
+nsrr_sex    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------
+female              5     50.00            5        50.00
+male                5     50.00           10       100.00
+
+                                                       Cumulative    Cumulative
+nsrr_race                    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------------------
+asian                                3     30.00            3        30.00
+black or african american            2     20.00            5        50.00
+multiple                             1     10.00            6        60.00
+white                                4     40.00           10       100.00
+
+                                                Cumulative    Cumulative
+nsrr_ethnicity        Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------------
+hispanic or latino           10    100.00           10       100.00
+
+                                                    Cumulative    Cumulative
+nsrr_hispanic_subgroup    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------------
+centralamerican                   1     10.00            1        10.00
+cuban                             2     20.00            3        30.00
+mexican                           2     20.00            5        50.00
+multiple                          1     10.00            6        60.00
+not reported                      1     10.00            7        70.00
+puertorican                       2     20.00            9        90.00
+southamerican                     1     10.00           10       100.00
+
+                                                 Cumulative    Cumulative
+nsrr_current_smoker    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------------
+no                             6     60.00            6        60.00
+yes                            4     40.00           10       100.00
+
+                                              Cumulative    Cumulative
+nsrr_ever_smoker    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+no                          3     30.00            3        30.00
+yes                         7     70.00           10       100.00

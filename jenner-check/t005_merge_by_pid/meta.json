@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_merge_by_pid",
+  "source_file": "scripts/prepare-hchs-for-nsrr.sas",
+  "source_blob_sha": "173d1f4f255a342a5773ba9bd9ccb3c4c6fa0167",
+  "source_commit": "e882a14bd0597fb8c4b75127368da6fc1b131813",
+  "tier": "mock_data",
+  "notes": "Source-prep + combine pattern (upstream lines 58-162): per-form input DATA steps apply drops (permit variables, fseqno/linenumber/etc.) and a rename (form -> slea_form), then the sub-datasets are MERGEd BY pid into the combined baseline dataset. The external solb sources are replaced by small inline stand-ins (part_derv, slea, sbpa) keyed on pid; the per-dataset transforms and the MERGE BY pid are upstream verbatim."
+}

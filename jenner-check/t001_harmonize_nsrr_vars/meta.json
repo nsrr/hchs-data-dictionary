@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_harmonize_nsrr_vars",
+  "source_file": "scripts/prepare-hchs-for-nsrr.sas",
+  "source_blob_sha": "173d1f4f255a342a5773ba9bd9ccb3c4c6fa0167",
+  "source_commit": "e882a14bd0597fb8c4b75127368da6fc1b131813",
+  "tier": "mock_data",
+  "notes": "Harmonization DATA step (upstream lines 181-336) that recodes HCHS/SOL source variables into the nsrr_* common-data-model variables (age cap at 90, sex/race/ethnicity/hispanic-subgroup label maps, smoker recodes, BMI/BP/REI/TST copies). The external solb libname source merge is replaced by a 10-row inline datalines stand-in in autoexec.sas with matching columns and types; the recoding logic is upstream verbatim. PROC PRINT added so the recoded output is visible."
+}
